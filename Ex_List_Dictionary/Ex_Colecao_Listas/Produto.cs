@@ -1,4 +1,4 @@
-﻿namespace Ex_List_Dictionary
+﻿namespace Ex_List_Dictionary.Ex_Colecao_Listas
 {
     public class Produto
     {

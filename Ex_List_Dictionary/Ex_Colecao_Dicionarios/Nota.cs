@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ex_List_Dictionary
+﻿namespace Ex_List_Dictionary.Ex_Colecao_Dicionarios
 {
     public class Nota
     {
@@ -26,5 +20,9 @@ namespace Ex_List_Dictionary
         public int Id { get { return id; } set { id = value; } }
         public string Materia { get { return materia; } set { materia = value; } }
         public int Valor { get { return valor; } set { valor = value; } }
+        public override string ToString()
+        {
+            return $"[Id: {id}; Matéria: {materia}; Valor: {valor}]";
+        }
     }
 }
