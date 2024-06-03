@@ -17,9 +17,21 @@
             materia = string.Empty;
             valor = 0;
         }
-        public int Id { get { return id; } set { id = value; } }
-        public string Materia { get { return materia; } set { materia = value; } }
-        public int Valor { get { return valor; } set { valor = value; } }
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        public string Materia
+        {
+            get { return materia; }
+            set { materia = value; }
+        }
+        public int Valor
+        {
+            get { return valor; }
+            set { valor = value; }
+        }
         public override string ToString()
         {
             return $"[Id: {id}; Matéria: {materia}; Valor: {valor}]";
